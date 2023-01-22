@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -15,19 +15,21 @@
   <div class="table">
     <div class="cell">
       <div class="card">
-              
-        Preview
+        <img class="image" src="./assets/images/image-product-desktop.jpg">
+        <div class="content">
+          <p class="gray header">PURFUME</p>
+          <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+          <p class="gray">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
 
-        Gabrielle Essence Eau De Parfum
+          <p class="price">$149.99<span class="gray price2">$169.99</span></p>
 
-        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL.
-
-        $149.99
-        $169.99
-
-        Add to Cart
-        
+          <button class="btn">
+            <img class="cart" src="./assets/images/icon-cart.svg">
+            <p class="cart">Add to Cart</p>
+          </button>
+        </div>
+        <div class="clearfix"></div>
       </div>
     </div>
   </div>
